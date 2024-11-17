@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
   if (username === correctUsername && password === correctPassword) {
       localStorage.setItem('username', username);
       localStorage.setItem('password', password);
-      window.location.href = "dashboard.html";
+      window.location.href = "home_shoe.html";
   } else {
       document.getElementById('error-message').style.display = 'block';
   }
