@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShoeStore>
+    <Brands>
+        <Brand>
+            <Name>Nike</Name>
+            <Model>Air Max</Model>
+            <UnitsAvailable>100</UnitsAvailable>
+        </Brand>
+        <Brand>
+            <Name>Adidas</Name>
+            <Model>UltraBoost</Model>
+            <UnitsAvailable>150</UnitsAvailable>
+        </Brand>
+        <Brand>
+            <Name>Puma</Name>
+            <Model>Suede Classic</Model>
+            <UnitsAvailable>80</UnitsAvailable>
+        </Brand>
+        <Brand>
+            <Name>Asics</Name>
+            <Model>Ultra Speed</Model>
+            <UnitsAvailable>812</UnitsAvailable>
+        </Brand>
+    </Brands>
+</ShoeStore>

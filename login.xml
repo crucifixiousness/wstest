@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css"/>
+        <script src="https://accounts.google.com/gsi/client" async="true" defer="true"/>
+    </head>
+    <body>
+        <login-form>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required="true"/>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" required="true"/>
+
+                <div>
+                    <input type="checkbox" id="show-password" onclick="togglePasswordVisibility()"/>
+                    <label for="show-password">Show Password</label>
+                </div>
+
+                <button class="loginbtn" type="submit">Login</button>
+
+                <g-id-onload data-client_id="875169705399-nn53eeuqpmdst0gngljrhtffui0rt3tn.apps.googleusercontent.com"
+                             data-context="signin"
+                             data-ux_mode="popup"
+                             data-callback="handleCredentialResponse"
+                             data-auto_prompt="false"/>
+                <g-id-signin data-type="standard"/>
+
+                <error-message style="color: red; display: none;">Incorrect username or password</error-message>
+            </form>
+        </login-form>
+
+        <script src="login.js"/>
+    </body>
+</document>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="shoestyle.css"> 
+</head>
+<body>
+    <header>
+        <h1>Shoe Store</h1>
+        <div id="weather-info">Loading weather...</div>
+        <input type="text" id="city-input" placeholder="Enter city" />
+        <button id="search-weather">Search Weather</button>
+    </header>
+
+    <main>
+        <section id="shoe-list">
+            <h2>Available Shoe Brands</h2>
+            <div id="brand-list">
+                <!-- Dynamic content will load here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shoe Store</p>
+    </footer>
+
+    <script src="xmlapi.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header-container h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header-container p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Main Content */
+main {
+  padding: 30px;
+}
+
+#shoe-list {
+  margin-top: 20px;
+}
+
+#brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Shoe Item Styling */
+.brand-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.brand-item:hover {
+  transform: scale(1.05);
+}
+
+.brand-item h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.brand-item p {
+  color: #555;
+  font-size: 1.1em;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.logo {
+  width: 100px; /* Adjust the width to your logo's desired size */
+  height: auto;
+  margin-right: 20px; /* Space between logo and text */
+  vertical-align: middle; /* Aligns logo with text */
+}
+.header-container {
+  display: flex;
+  align-items: center; /* Vertically centers the logo and text */
+  justify-content: center; /* Horizontally centers content */
+}
+
+/* Weather Section Styling */
+#weather-info {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+#weather-info h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#weather-info p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+/* Input and Button Styling */
+#city-input {
+  width: 250px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#city-input:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 4px #007BFF;
+}
+
+#search-weather {
+  padding: 10px 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#search-weather:hover {
+  background-color: #0056b3;
+}
+
+#search-weather:active {
+  background-color: #003d82;
+}
